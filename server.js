@@ -19,7 +19,7 @@ const io = new Server(server, {
     origin: [
       'http://localhost:5173',
       'http://localhost:4173',
-      'https://waste-tracker-frontend-f6c2fistf-rupesh7241s-projects.vercel.app',    
+      'https://waste-tracker-frontend.vercel.app',    
     process.env.FRONTEND_URL,
              ],         // your React dev URL
     methods: ['GET', 'POST'],
@@ -50,7 +50,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:4173',
-    'https://waste-tracker-frontend-f6c2fistf-rupesh7241s-projects.vercel.app',        // ← your Vercel URL (add after step 3)
+    'https://waste-tracker-frontend.vercel.app/',      
     process.env.FRONTEND_URL,
   ],
   credentials: true,
