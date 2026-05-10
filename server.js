@@ -50,7 +50,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:4173',
-    'https://waste-tracker-frontend.vercel.app/',      
+    'https://waste-tracker-frontend.vercel.app',      
     process.env.FRONTEND_URL,
   ],
   credentials: true,
